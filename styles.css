@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('  Outfit-VariableFont_wght.ttf') format('woff2'),
+         url('  Outfit-VariableFont_wght.ttf') format('woff');
+    /* Agrega los formatos de fuente necesarios */
+  }
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { color: hsl(228, 23%, 50%); }
+body{
+    background-color: hsl(220, 15%, 55%);
+    font-family: 'Outfit';
+}
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* El ancho deseado para la carta */
+    height: 500px; /* La altura deseada para la carta */
+    border: 1px solid #ccc; /* Solo para visualizar el contenedor */
+    text-align: center; /* Centra el contenido horizontalmente */
+    border-radius: 3%;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left:0;
+    top:0;
+    bottom:0;
+}
+img{
+  max-width: 90%;
+  max-height: 100%;
+  flex: 1; /* Ocupa la mitad superior */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10%;
+  padding-bottom: 0;
+}
+h2,p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right:10px;
+}
+h2{
+    color:hsl(218, 44%, 22%);
+}
+p{
+    color:grey;
+    font-size: 15px;
+}
